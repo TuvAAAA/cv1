@@ -18,11 +18,14 @@ aside{
     flex-grow: 0.2;
     color: black;
     min-height:100vh;
-    
-    
 }
+.sidebar:hover{
+    transform: scale(102%);
+    transition: all 0.2s ease-in-out;
+}
+
 .img:hover{
-    transform: scale(110%);
+    transform: scale(105%);
     transition: all 0.2s ease-in-out;
 }
 
@@ -40,6 +43,7 @@ aside{
 }
 header{
     background-color: rgb(255, 141, 171);
+    #få bort länken under namet
     h1{
         color: black;
         padding: 1rem;
@@ -56,6 +60,8 @@ header{
     display: grid;
     place-content: center;
     padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 
