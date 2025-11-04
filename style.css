@@ -34,7 +34,8 @@ aside{
 .not-sidebar{
     flex-basis: 0;
     flex-grow: 999;
-    min-inline-size: 50%;
+    min-inline-size: 70%;
+    padding-left: 1rem;
 }
 .wrapper{
     max-width: 56rem;
@@ -43,10 +44,10 @@ aside{
 }
 header{
     background-color: rgb(255, 141, 171);
-    #få bort länken under namet
-    h1{
+     h1{
         color: black;
         padding: 1rem;
+
     }
     outline: auto;
     outline-color: rgb(160, 42, 79);
@@ -64,4 +65,8 @@ header{
     padding-right: 1rem;
 }
 
+.full-body{
+    float: right;
+    max-width: 100%;
+}
 
