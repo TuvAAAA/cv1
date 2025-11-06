@@ -35,7 +35,6 @@ aside{
     flex-basis: 0;
     flex-grow: 999;
     min-inline-size: 70%;
-    padding-left: 1rem;
 }
 .wrapper{
     max-width: 56rem;
@@ -60,13 +59,16 @@ header{
 .centerd-image{
     display: grid;
     place-content: center;
-    padding-top: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-top: 2rem;
+    
 }
-
-.full-body{
-    float: right;
-    max-width: 100%;
+h2{
+    font-weight: 400;
 }
-
+p{
+    font-weight: bold;
+}
+.containter{
+    width:100%
+    
+}
