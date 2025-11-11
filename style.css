@@ -17,7 +17,6 @@ aside{
     flex-basis: 10rem;
     flex-grow: 0.2;
     color: black;
-    min-height:100vh;
 }
 .sidebar:hover{
     transform: scale(102%);
@@ -34,7 +33,6 @@ aside{
 .not-sidebar{
     flex-basis: 0;
     flex-grow: 999;
-    min-inline-size: 70%;
 }
 .wrapper{
     max-width: 56rem;
@@ -71,4 +69,32 @@ p{
 .containter{
     width:100%
     
+}
+
+.skillbar-container{
+    width: 20rem;
+    height: 1.8rem;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 0.2rem;
+}
+
+.skillbar{
+    width: var(--percentage);
+    height: 100%;
+    background-color: rgb(255, 211, 223);
+    line-height: 30px;
+    text-align: right;
+    padding-right: 10px;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+    transition: width 1.5s ease-out;
+}
+ul{
+    list-style:none;
+}
+li1{
+    color:  rgb(255, 240, 211);
 }
