@@ -44,15 +44,9 @@ header{
      h1{
         color: black;
         padding: 1rem;
-
     }
     outline: auto;
     outline-color: rgb(160, 42, 79);
-}
-
-.img{
-    border-radius: 20px;
-
 }
 .centerd-image{
     display: grid;
@@ -104,4 +98,8 @@ ul{
 }
 .tjock_text{
     font-weight: bolder;
+}
+
+.img{
+    border-radius: 20px;
 }
