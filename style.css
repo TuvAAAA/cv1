@@ -95,10 +95,13 @@ p{
 ul{
     list-style:none;
 }
-li1{
+.försvinner{
     color:  rgb(255, 240, 211);
 }
 
 .smal_text{
     font-weight: lighter;
+}
+.tjock_text{
+    font-weight: bolder;
 }
