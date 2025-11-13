@@ -98,3 +98,7 @@ ul{
 li1{
     color:  rgb(255, 240, 211);
 }
+
+.smal_text{
+    font-weight: lighter;
+}
